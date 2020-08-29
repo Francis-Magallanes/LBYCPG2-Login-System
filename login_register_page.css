@@ -1,0 +1,67 @@
+/*For the styling of page*/
+
+body{
+  background-color: #696D7D;
+  font-size: 15px;
+}
+
+/**for the container of the form and buttons */
+div.page{
+  width: 400px;
+  position: absolute;
+  left: 450px;
+  top: 150px;
+  color: #001A23;
+  background-color: #FAF3DD;
+  box-shadow: 10px 10px #68B0AB;
+}
+
+h1{
+  text-align: center;    
+}
+
+/**for the input text */
+input{
+  border-radius: 10px;
+  background-color: white;
+}
+
+/**for the finput button */
+input[type=text], input[type=password]{
+  font-size: 17px;
+}
+input[type=submit]{
+  margin-left: 25%;
+  border-radius: 5px;
+  width: 150px;
+  
+}
+
+/**for the form tag */
+form{
+  width: auto;
+  height: auto;
+  padding: 7px 0px 7px 15px;
+}
+
+/**for the register button */
+button{
+  margin-left: 25%;
+  border-radius: 5px;
+  background-color: white;
+  width: 150px;
+}
+
+/*For the table*/
+td{
+  text-align: right;
+}
+
+/**for the error message */
+p.error{
+  position: absolute;
+  left: 500px;
+  top: 350px;
+  font-size: 27px;
+  color: #04E824;
+}
